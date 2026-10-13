@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetMySaloon | The Men's Festive Edit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'DM Sans', sans-serif;
+            background: #e9e6df;
+            color: #252721;
+        }
+
+        .editorial {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .gold {
+            color: #b99554;
+        }
+
+        .gold-bg {
+            background-color: #c7a567;
+        }
+
+        .email-container {
+            width: 100%;
+            max-width: 680px;
+            margin: 0 auto;
+            background: #fbf9f4;
+            overflow: hidden;
+        }
+
+        .hero {
+            background:
+                linear-gradient(
+                    90deg,
+                    rgba(19, 23, 21, 0.94) 0%,
+                    rgba(19, 23, 21, 0.77) 46%,
+                    rgba(19, 23, 21, 0.12) 100%
+                ),
+                url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvsFDdnKjCeDnqAZaFL5zSPkmuvhoq280ODmv3Rj6HgA&s=10");
+            background-position: center;
+            background-size: cover;
+        }
+
+        .section-label {
+            letter-spacing: 3px;
+            font-size: 10px;
+            font-weight: 700;
+        }
+
+        .service-card {
+            background: #ffffff;
+            border: 1px solid #e9e4d9;
+        }
+
+        .service-image {
+            width: 100%;
+            height: 190px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .offer-pattern {
+            background-image:
+                radial-gradient(
+                    circle at 10% 20%,
+                    rgba(199, 165, 103, 0.13) 0,
+                    transparent 26%
+                ),
+                radial-gradient(
+                    circle at 90% 80%,
+                    rgba(199, 165, 103, 0.13) 0,
+                    transparent 28%
+                );
+        }
+
+        @media (max-width: 520px) {
+            .hero {
+                background-position: 58% center;
+            }
+
+            .service-image {
+                height: 150px;
+            }
+
+            .hero-title {
+                font-size: 43px !important;
+            }
+        }
+    </style>
+</head>
+
+<body class="py-6 px-3 sm:px-6">
+    <main class="email-container shadow-2xl">
+        <div class="bg-[#c7a567] px-4 py-3 text-center">
+            <p class="text-[10px] sm:text-xs font-bold tracking-[2px] uppercase text-[#22251f]">
+                YOUR FESTIVE GROOMING LINE-UP IS HERE
+            </p>
+        </div>
+        <header class="flex items-center justify-between px-6 sm:px-10 py-6 border-b border-[#e9e4d9]">
+
+            <a
+                href="https://getmysaloon.com/"
+                class="text-xl sm:text-2xl font-bold tracking-tight text-[#252721]">
+                GetMy<span class="text-[#b99554]">Saloon</span>
+                <span class="block text-[9px] tracking-[4px] uppercase font-medium text-gray-500 mt-1">
+                    Men's Grooming Edit
+                </span>
+            </a>
+
+            <a
+                href="https://getmysaloon.com/"
+                class="hidden sm:inline-flex items-center gap-2 text-[10px] font-bold tracking-[1px] uppercase border border-[#252721] px-4 py-3 hover:bg-[#252721] hover:text-white transition">
+                Find Your Salon
+                <i class="ri-arrow-right-up-line"></i>
+            </a>
+
+            <a
+                href="https://getmysaloon.com/"
+                class="sm:hidden text-xl text-[#252721]"
+                aria-label="Visit GetMySaloon">
+                <i class="ri-arrow-right-up-line"></i>
+            </a>
+
+        </header>
+        <section class="hero min-h-[440px] sm:min-h-[490px] flex items-center px-7 sm:px-12 py-12">
+
+            <div class="max-w-[390px] text-white">
+
+                <div class="flex items-center gap-3 mb-7">
+                    <span class="w-8 h-[1px] bg-[#d8b778]"></span>
+                    <p class="section-label text-[#e1c58e] uppercase">
+                        THE MEN'S FESTIVE EDIT
+                    </p>
+                </div>
+
+                <h1 class="editorial hero-title text-5xl sm:text-[61px] leading-[1.08] font-medium">
+                    Look Sharp.<br>
+                    Feel <span class="italic text-[#d7b879]">Unstoppable.</span>
+                </h1>
+
+                <p class="mt-6 text-sm sm:text-base leading-7 text-gray-200 max-w-[320px]">
+                    Fresh fades, sharper beards and a well-groomed look.
+                    Get ready to make every festive moment count.
+                </p>
+
+                <a
+                    href="https://getmysaloon.com/"
+                    class="inline-flex items-center gap-3 mt-8 bg-[#c7a567] text-[#20231e] px-6 py-4 text-[10px] sm:text-xs tracking-[1.5px] font-bold uppercase hover:bg-white transition">
+                    Find Your Festive Look
+                    <i class="ri-arrow-right-line text-base"></i>
+                </a>
+
+                <p class="mt-6 text-[9px] tracking-[2px] uppercase text-gray-300">
+                    YOUR STYLE. YOUR RULES.
+                </p>
+
+            </div>
+        </section>
+        <section class="px-7 sm:px-12 py-12 sm:py-16 text-center">
+
+            <p class="section-label text-[#a27f43] uppercase mb-4">
+                WOW! IT'S GROOMING TIME
+            </p>
+
+            <h2 class="editorial text-3xl sm:text-[39px] leading-tight">
+                Every Detail Makes<br>
+                <span class="italic text-[#a27f43]">The Difference.</span>
+            </h2>
+
+            <p class="max-w-[460px] mx-auto text-sm leading-7 text-gray-600 mt-5">
+                From a clean haircut to a perfectly shaped beard,
+                your personal style deserves attention. Discover grooming
+                services for celebrations, family gatherings and every
+                occasion worth showing up for.
+            </p>
+
+            <div class="flex items-center justify-center gap-3 mt-7">
+                <span class="w-12 h-[1px] bg-[#c7a567]"></span>
+                <i class="ri-scissors-line text-xl text-[#b99554]"></i>
+                <span class="w-12 h-[1px] bg-[#c7a567]"></span>
+            </div>
+
+        </section>
+        <section class="bg-[#f1eee7] px-5 sm:px-10 py-12 sm:py-14">
+
+            <div class="text-center mb-9">
+                <p class="section-label text-[#a27f43] uppercase mb-3">
+                    YOUR GROOMING MENU
+                </p>
+
+                <h2 class="editorial text-3xl sm:text-[38px]">
+                    Pick Your Power Look
+                </h2>
+
+                <p class="text-sm text-gray-500 mt-3">
+                    Four essentials. One confident you.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <article class="service-card">
+                    <img
+                        class="service-image"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0DRPsDQfDXH7VLm0c3MKz9uaDODT5YGbcgns4F31n3g&s=10"
+                        alt="Men's haircut and styling">
+
+                    <div class="p-5 sm:p-6">
+                        <p class="section-label text-[#a27f43] mb-3">
+                            01 — HAIR
+                        </p>
+
+                        <h3 class="editorial text-2xl">
+                            The Hair Statement
+                        </h3>
+
+                        <p class="text-sm leading-6 text-gray-600 mt-3">
+                            Clean fades, classic cuts and modern styling
+                            to make your look stand out.
+                        </p>
+
+                        <a
+                            href="https://getmysaloon.com/"
+                            class="inline-flex items-center gap-2 mt-5 text-[10px] font-bold tracking-[1px] uppercase border-b border-[#c7a567] pb-2">
+                            Explore Haircuts
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                </article>
+                <article class="service-card">
+                    <img
+                        class="service-image"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj0PS6DezsF4gzpzGX5WnJVJZIt6ReAVxd1IuyN2-MCg&s=10"
+                        alt="Professional men's beard grooming">
+
+                    <div class="p-5 sm:p-6">
+                        <p class="section-label text-[#a27f43] mb-3">
+                            02 — BEARD
+                        </p>
+
+                        <h3 class="editorial text-2xl">
+                            The Beard Edit
+                        </h3>
+
+                        <p class="text-sm leading-6 text-gray-600 mt-3">
+                            Refine your style with beard shaping,
+                            trimming and a clean, finished look.
+                        </p>
+
+                        <a
+                            href="https://getmysaloon.com/"
+                            class="inline-flex items-center gap-2 mt-5 text-[10px] font-bold tracking-[1px] uppercase border-b border-[#c7a567] pb-2">
+                            Explore Beard Care
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                </article>
+                <article class="service-card">
+                    <img
+                        class="service-image"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD15XacdI_4G3BjhxwiPv1g8l11kC2KIPhGha_oQ3sKA&s=10"
+                        alt="Relaxing facial skincare treatment">
+
+                    <div class="p-5 sm:p-6">
+                        <p class="section-label text-[#a27f43] mb-3">
+                            03 — SKIN
+                        </p>
+
+                        <h3 class="editorial text-2xl">
+                            The Fresh-Face Edit
+                        </h3>
+
+                        <p class="text-sm leading-6 text-gray-600 mt-3">
+                            Explore facial and skincare services for
+                            a refreshed feeling and polished appearance.
+                        </p>
+
+                        <a
+                            href="https://getmysaloon.com/"
+                            class="inline-flex items-center gap-2 mt-5 text-[10px] font-bold tracking-[1px] uppercase border-b border-[#c7a567] pb-2">
+                            Explore Skincare
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                </article>
+                <article class="service-card">
+                    <img
+                        class="service-image"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCi3jfh-jmc5nToFPfIGiESxlql3i6BFxPHUkendWpgg&s=10"
+                        alt="Men's personal care and grooming">
+
+                    <div class="p-5 sm:p-6">
+                        <p class="section-label text-[#a27f43] mb-3">
+                            04 — THE FULL LOOK
+                        </p>
+
+                        <h3 class="editorial text-2xl">
+                            The Gentleman Edit
+                        </h3>
+
+                        <p class="text-sm leading-6 text-gray-600 mt-3">
+                            Bring your grooming routine together
+                            with services tailored to your personal style.
+                        </p>
+
+                        <a
+                            href="https://getmysaloon.com/"
+                            class="inline-flex items-center gap-2 mt-5 text-[10px] font-bold tracking-[1px] uppercase border-b border-[#c7a567] pb-2">
+                            Explore Grooming
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+        <section class="bg-[#20251f] offer-pattern px-7 sm:px-12 py-12 sm:py-16 text-center text-white relative">
+
+            <div class="border border-[#b99554] p-7 sm:p-10">
+
+                <div class="flex justify-center items-center gap-3 mb-5">
+                    <i class="ri-sparkling-2-line text-[#d7b879] text-xl"></i>
+                    <p class="section-label uppercase text-[#d7b879]">
+                        THE FESTIVE SPECIAL
+                    </p>
+                    <i class="ri-sparkling-2-line text-[#d7b879] text-xl"></i>
+                </div>
+
+                <h2 class="editorial text-4xl sm:text-5xl leading-tight">
+                    A Fresh Look.<br>
+                    <span class="italic text-[#d7b879]">A Fresh Start.</span>
+                </h2>
+
+                <p class="text-sm leading-7 text-gray-300 max-w-[400px] mx-auto mt-5">
+                    Make time for yourself this festive season.
+                    Explore salon services and check the latest available
+                    offers before your next grooming appointment.
+                </p>
+
+                <div class="inline-block border-y border-[#b99554] py-3 px-7 my-7">
+                    <p class="text-[10px] uppercase tracking-[3px] text-[#d7b879]">
+                        YOUR FESTIVE GROOMING MOMENT
+                    </p>
+                </div>
+
+                <div>
+                    <a
+                        href="https://getmysaloon.com/"
+                        class="inline-flex items-center gap-3 bg-[#c7a567] text-[#20251f] px-7 py-4 text-[10px] sm:text-xs font-bold tracking-[1.5px] uppercase hover:bg-white transition">
+                        Discover Available Offers
+                        <i class="ri-arrow-right-line text-base"></i>
+                    </a>
+                </div>
+
+                <p class="text-[10px] text-gray-400 mt-5">
+                    Check service availability and offer terms before booking.
+                </p>
+
+            </div>
+        </section>
+        <section class="px-6 sm:px-10 py-12 sm:py-14">
+
+            <div class="text-center mb-8">
+                <p class="section-label text-[#a27f43] uppercase mb-3">
+                    WHAT'S YOUR MOOD?
+                </p>
+
+                <h2 class="editorial text-3xl sm:text-[38px]">
+                    Choose Your Style Energy
+                </h2>
+
+                <p class="text-sm text-gray-500 mt-3">
+                    Find the look that feels like you.
+                </p>
+            </div>
+
+            <div class="space-y-0">
+                <div class="flex gap-4 sm:gap-6 py-5 border-b border-[#e8e2d7]">
+
+                    <div class="w-12 h-12 shrink-0 rounded-full bg-[#f0e7d4] flex items-center justify-center">
+                        <i class="ri-scissors-2-line text-xl text-[#9b783d]"></i>
+                    </div>
+
+                    <div>
+                        <h3 class="editorial text-xl">
+                            Clean & Classic
+                        </h3>
+
+                        <p class="text-sm leading-6 text-gray-600 mt-2">
+                            Timeless haircuts and neat finishing touches
+                            for a sharp everyday appearance.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="flex gap-4 sm:gap-6 py-5 border-b border-[#e8e2d7]">
+
+                    <div class="w-12 h-12 shrink-0 rounded-full bg-[#f0e7d4] flex items-center justify-center">
+                        <i class="ri-user-star-line text-xl text-[#9b783d]"></i>
+                    </div>
+
+                    <div>
+                        <h3 class="editorial text-xl">
+                            Bold & Modern
+                        </h3>
+
+                        <p class="text-sm leading-6 text-gray-600 mt-2">
+                            Explore contemporary cuts, textured styles
+                            and a look that makes a statement.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="flex gap-4 sm:gap-6 py-5 border-b border-[#e8e2d7]">
+
+                    <div class="w-12 h-12 shrink-0 rounded-full bg-[#f0e7d4] flex items-center justify-center">
+                        <i class="ri-leaf-line text-xl text-[#9b783d]"></i>
+                    </div>
+
+                    <div>
+                        <h3 class="editorial text-xl">
+                            Fresh & Refined
+                        </h3>
+
+                        <p class="text-sm leading-6 text-gray-600 mt-2">
+                            Give your routine a refresh with facial care
+                            and a well-maintained grooming style.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="flex gap-4 sm:gap-6 py-5">
+
+                    <div class="w-12 h-12 shrink-0 rounded-full bg-[#f0e7d4] flex items-center justify-center">
+                        <i class="ri-vip-crown-line text-xl text-[#9b783d]"></i>
+                    </div>
+
+                    <div>
+                        <h3 class="editorial text-xl">
+                            The Complete Gentleman
+                        </h3>
+
+                        <p class="text-sm leading-6 text-gray-600 mt-2">
+                            Pair your haircut, beard care and personal
+                            grooming into one polished look.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="text-center mt-7">
+                <a
+                    href="https://getmysaloon.com/"
+                    class="inline-flex items-center gap-3 border border-[#252721] px-7 py-4 text-[10px] font-bold uppercase tracking-[1.5px] hover:bg-[#252721] hover:text-white transition">
+                    Explore GetMySaloon
+                    <i class="ri-arrow-right-line"></i>
+                </a>
+            </div>
+
+        </section>
+        <section class="bg-[#f1eee7] px-7 sm:px-12 py-12 sm:py-14">
+
+            <div class="text-center mb-9">
+                <p class="section-label text-[#a27f43] uppercase mb-3">
+                    BEFORE THE CELEBRATIONS
+                </p>
+
+                <h2 class="editorial text-3xl sm:text-[38px]">
+                    Your Grooming Checklist
+                </h2>
+            </div>
+
+            <div class="space-y-6">
+
+                <div class="flex gap-4">
+                    <i class="ri-checkbox-circle-line text-2xl text-[#ad8a4d]"></i>
+
+                    <div>
+                        <h3 class="font-bold text-sm">
+                            01. Plan Your Appointment
+                        </h3>
+
+                        <p class="text-sm text-gray-600 leading-6 mt-1">
+                            Browse available salons and check appointment
+                            timings that suit your schedule.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex gap-4">
+                    <i class="ri-checkbox-circle-line text-2xl text-[#ad8a4d]"></i>
+
+                    <div>
+                        <h3 class="font-bold text-sm">
+                            02. Choose Your Look
+                        </h3>
+
+                        <p class="text-sm text-gray-600 leading-6 mt-1">
+                            Decide on your haircut, beard style or
+                            grooming service before your visit.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex gap-4">
+                    <i class="ri-checkbox-circle-line text-2xl text-[#ad8a4d]"></i>
+
+                    <div>
+                        <h3 class="font-bold text-sm">
+                            03. Check the Offer Details
+                        </h3>
+
+                        <p class="text-sm text-gray-600 leading-6 mt-1">
+                            Confirm current pricing, service availability
+                            and applicable promotional terms.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex gap-4">
+                    <i class="ri-checkbox-circle-line text-2xl text-[#ad8a4d]"></i>
+
+                    <div>
+                        <h3 class="font-bold text-sm">
+                            04. Step Out with Confidence
+                        </h3>
+
+                        <p class="text-sm text-gray-600 leading-6 mt-1">
+                            Enjoy your grooming session and get ready
+                            for your next celebration.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="px-7 sm:px-12 py-12 sm:py-14 text-center">
+
+            <p class="section-label uppercase text-[#a27f43] mb-4">
+                YOUR NEXT LOOK STARTS HERE
+            </p>
+
+            <h2 class="editorial text-3xl sm:text-[42px] leading-tight">
+                Make It a Good<br>
+                <span class="italic text-[#a27f43]">Hair Day.</span>
+            </h2>
+
+            <p class="text-sm leading-7 text-gray-600 max-w-[400px] mx-auto mt-5">
+                Your style deserves a little attention.
+                Discover men's grooming services with GetMySaloon
+                and get ready for the festive season.
+            </p>
+
+            <a
+                href="https://getmysaloon.com/"
+                class="inline-flex items-center gap-3 mt-7 bg-[#252721] text-white px-8 py-4 text-[10px] sm:text-xs tracking-[1.5px] font-bold uppercase hover:bg-[#a27f43] transition">
+                Find Your Salon Today
+                <i class="ri-arrow-right-up-line text-base"></i>
+            </a>
+
+        </section>
+        <footer class="bg-[#20251f] text-white px-6 sm:px-10 py-9 text-center">
+
+            <a
+                href="https://getmysaloon.com/"
+                class="editorial text-3xl">
+                GetMy<span class="text-[#d7b879]">Saloon</span>
+            </a>
+
+            <p class="text-[10px] tracking-[3px] uppercase text-gray-400 mt-3">
+                THE MEN'S GROOMING DESTINATION
+            </p>
+
+            <div class="flex justify-center gap-5 mt-7 text-xl text-[#d7b879]">
+                <a href="https://getmysaloon.com/" aria-label="Website">
+                    <i class="ri-global-line"></i>
+                </a>
+
+                <a href="https://getmysaloon.com/" aria-label="Explore services">
+                    <i class="ri-instagram-line"></i>
+                </a>
+            </div>
+
+            <div class="w-full h-[1px] bg-white/10 my-7"></div>
+
+            <p class="text-xs text-gray-300 leading-6">
+                Your grooming journey starts with GetMySaloon.
+            </p>
+
+            <div class="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 mt-4 text-[10px] text-gray-400">
+                <a href="https://getmysaloon.com/" class="hover:text-white">
+                    Visit Website
+                </a>
+
+                <span>•</span>
+
+                <a href="https://getmysaloon.com/" class="hover:text-white">
+                    Explore Services
+                </a>
+
+                <span>•</span>
+
+                <a href="https://getmysaloon.com/" class="hover:text-white">
+                    Contact
+                </a>
+            </div>
+
+            <p class="text-[10px] text-gray-500 mt-6 leading-5">
+                © 2026 GetMySaloon. All rights reserved.<br>
+                Please confirm service details and applicable offers
+                before booking.
+            </p>
+
+        </footer>
+
+    </main>
+
+</body>
+</html>
